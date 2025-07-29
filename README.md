@@ -1,44 +1,120 @@
 # Prodigy-infotech-task-4
 Software development internship 
-# Prodigy Infotech - Task 4 🚀
+ 
+✅ If this is Task 4 - Sudoku Puzzle Solver/Game:
 
-**Internship Domain**: Software Development  
-**Task Title**: Temperature Converter using Java (GUI)  
-**Intern Name**: Aravind Kumar G S  
-**Repository**: [Prodigy-infotech-task-4](https://github.com/ARAVINDKUMARGS/Prodigy-infotech-task-4)
 
----
+🔢 Prodigy Infotech Task 4 – Sudoku Puzzle Solver (Java)
 
-## 📌 Task Description
-Developed a **Temperature Converter** application using **Java Swing GUI** that allows users to easily convert between:
-- Celsius 🌡️
-- Fahrenheit 🔥
-- Kelvin ❄️
+📌 Description:
+
+This project is part of the Prodigy Infotech Software Development Internship. The task was to develop a Sudoku Puzzle Solver using Java that automatically solves a 9x9 Sudoku grid using backtracking algorithm.
+
 
 ---
 
-## 🧑‍💻 Technologies Used
-- Java
-- Java Swing (GUI Framework)
-- IntelliJ IDEA / Eclipse (any IDE can be used)
+🧠 Key Features:
+
+Solves any valid 9x9 Sudoku puzzle
+
+Uses Backtracking algorithm
+
+Validates initial puzzle for correctness
+
+CLI-based or GUI-based (depending on your implementation)
+
+Fully coded in Java
+
+
 
 ---
 
-## 💡 Features
-- Simple and interactive graphical user interface (GUI)
-- Real-time conversion upon input
-- Dropdown menu to select units (Celsius, Fahrenheit, Kelvin)
-- Clean and user-friendly layout
+💻 Technologies Used:
+
+Language: Java
+
+IDE: IntelliJ IDEA / Eclipse / VS Code
+
+Logic: Recursive backtracking
+
+
 
 ---
 
-## 📷 Screenshots
-> ![Screenshot 1](Screenshot_2025-07-29-15-40-14-57_40deb401b9ffe8e1df2f1cc5ba480b12.jpg)  
-> ![Screenshot 2](Screenshot_2025-07-29-15-41-03-79_d4003123f13cd1833dbcae05882554f0.jpg)
+📸 Screenshots:
+
+(Add your Sudoku grid screenshots here, e.g., before solving and after solving)
+
 
 ---
 
-## 📁 How to Run
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/ARAVINDKUMARGS/Prodigy-infotech-task-4
+📂 Files:
+
+Task4.java – Contains the main code for Sudoku Solver
+
+README.md – This file
+
+input.txt (Optional) – Example input for testing
+
+
+
+---
+
+▶️ How to Run:
+
+1. Clone the repo:
+
+git clone https://github.com/ARAVINDKUMARGS/Prodigy-infotech-task-4.git
+
+
+2. Open in your favorite Java IDE or compile via terminal:
+
+javac Task4.java
+java Task4
+
+
+3. Input the puzzle manually or use hardcoded puzzles in the code.
+
+
+
+
+---
+
+🧪 Sample Input:
+
+5 3 0 0 7 0 0 0 0
+6 0 0 1 9 5 0 0 0
+0 9 8 0 0 0 0 6 0
+8 0 0 0 6 0 0 0 3
+4 0 0 8 0 3 0 0 1
+7 0 0 0 2 0 0 0 6
+0 6 0 0 0 0 2 8 0
+0 0 0 4 1 9 0 0 5
+0 0 0 0 8 0 0 7 9
+
+✅ Output:
+
+(Solved Sudoku grid printed to console)
+
+
+---
+
+📌 Algorithm Used:
+
+Backtracking
+
+Try numbers from 1 to 9 in empty cells
+
+Check if valid in row, column, and 3x3 box
+
+Recurse and backtrack if needed
+
+
+
+
+---
+
+🙌 Internship:
+
+This task was completed as part of the **Java Development Internship at Prodigy
+
